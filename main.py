@@ -9,7 +9,7 @@ load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
-openai = AsyncOpenAI()  
+openai = AsyncOpenAI()
 
 async def main() -> None:
     try:
